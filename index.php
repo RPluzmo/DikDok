@@ -25,4 +25,17 @@ class Video {
         $this->nosaukums = $nosaukums;
     }
 }
+class Lietotajs {
+    public $id;
+    public $lietotajvards;
+    public $epasts;
+    public $parole;
+
+    public function __construct($id, $lietotajvards, $epasts, $parole) {
+        $this->id = $id;
+        $this->lietotajvards = $lietotajvards;
+        $this->epasts = $epasts;
+        $this->parole = $parole;
+    }
+}
 ?>
